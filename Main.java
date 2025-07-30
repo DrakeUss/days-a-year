@@ -4,9 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int point = 0;
-        boolean x = true;
 
-        while (x) {
+        while (true) {
             System.out.println("Введите год: ");
             int year = sc.nextInt();
             System.out.println("Введите количество дней: ");
